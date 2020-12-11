@@ -1,0 +1,296 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Türkiye'nin En İyi E-Ticaret Sitesi</title>
+    <link rel="stylesheet" href="css/stil.css">
+    <link rel="stylesheet" media="(max-width:600px)" href="./css/mobil.css">
+
+<!-- Fotoroma ve Css Çağırma -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<link  href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+<script src="sliderengine/jquery.js"></script>
+<script src="sliderengine/amazingslider.js"></script>
+<script src="sliderengine/initslider-1.js"></script>
+<link href="SpryAssets/SpryMenuBarHorizontal.css" rel="stylesheet" type="text/css" />  
+<script src="SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
+<link rel="shortcut icon" href="resimler/sparta.ico" />
+
+<!-- İnternetten direk alıp yapıştırdığım Yukarı Çık Butonu -->
+<style>
+    #onlyJSyc{
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+    border: none;
+    outline: none;
+    background: url(http://4.bp.blogspot.com/-b50XKMWz84U/W9RouwhqVII/AAAAAAAAR_U/qQFXBOiUuQUC9Rv_evE4S7P9_yZ1YzZDgCK4BGAYYCw/s1600/yukari.png) no-repeat;
+    cursor: pointer;
+    padding: 0px;
+    width: 40px;
+    height: 40px;
+    }
+    </style>
+    <button onclick="topFunction()" id="onlyJSyc"></button>
+    <script>
+    window.onscroll = function() {
+    scrollFunction()
+    };
+    function scrollFunction() {
+    if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500)
+    document.getElementById("onlyJSyc").style.display = "block"
+    else
+    document.getElementById("onlyJSyc").style.display = "none"
+    }
+    function topFunction() {
+    if (document.body.scrollTop > 0 || document.documentElement.scrollTop > 0) {
+    document.body.scrollTop -= 40
+    document.documentElement.scrollTop -= 40
+    setTimeout(function() {
+    topFunction()
+    }, 0)
+    } else {
+    document.body.scrollTop = 0
+    document.documentElement.scrollTop = 0
+    }
+    }
+    </script>
+
+</head>
+
+<body>
+       
+     <div class="teknoloji_günleri"><img src="resimler/logo2.png"></div>
+    <div class="banner">
+        
+    
+        <div class="menüler"> 
+            <div class="logo"><a href="index.html"><img src="resimler/logo.png"></a></div>
+            <ul>
+            <li><a href="index.html">Anasayfa</a></li>
+            <li><a href="gamingsistemler.html">Gaming Sistemler</a></li>
+            <li><a href="hazirsistemler.html">Hazır Sistemler</a></li>            
+           <li><a href="hakkimizda.html">Hakkımızda</a></li>
+           <li><a href="iletişim.html">İletişim</a></li>
+           </ul>
+        </div>
+    </div>
+
+    <div class="mavi"></div>
+    <div class="k_resim">
+        <div class="vada"><img src="resimler/world_vada.png"></div>
+    </div>
+
+    <div class="orta_alan">
+
+    <div class="fotorama_döngü">
+
+        <div class="fotorama" data-nav="thumbs" data-autoplay="3000">
+            <img src="resimler/asus.png">
+            <img src="resimler/asus_kasa.png">
+            <img src="resimler/Modart_pc.png">
+            <img src="resimler/farcry6.png">
+            <img src="resimler/xiaomi.png">
+            <img src="resimler/rtx_30serisi.png">
+            <img src="resimler/rtx_bilgisayarlar.png">
+            <img src="resimler/rtx_its on.png">
+            <img src="resimler/valhala.png">
+            <img src="resimler/xfx.png">
+            <img src="resimler/onvo.png">     
+            <img src="resimler/msi.png">
+        </div>
+
+     </div>
+
+
+        <div class="kücük_alan">
+            <h3 style="border-bottom: 1px solid gray; margin-bottom: 10px;">Fırsat Ürünlerimiz</h3>
+            <div class="fotorama" data-autoplay="2500">
+                <img src="resimler/kücük/resim_1.jpg">
+                <img src="resimler/kücük/resim_2.jpg">
+                <img src="resimler/kücük/resim_3.jpg">
+                <img src="resimler/kücük/resim_4.jpg">
+                <img src="resimler/kücük/resim_6.jpg">
+                <img src="resimler/kücük/resim_7.jpg">
+                <img src="resimler/kücük/resim_8.jpg">
+                <img src="resimler/kücük/resim_9.jpg">
+                <img src="resimler/kücük/resim_10.jpg">
+              </div>
+            <h4 style="font-size: large; text-align:center; padding:10px; font-size: 15px; font-family: Georgia, 'Times New Roman', Times, serif">Dev İndirimler ile Çok Yakında Raflarda</h4>
+        </div>
+    </div>   
+
+
+    <div class="ortanın_altı">
+
+        <div class="gaming_sistemler">
+            <h2>Gaming Sistemler</h2><br>
+            <!-- Link verilecek --> <img src="resimler/hazır_sistem.jpg">
+        </div>
+
+        <div class="hazir_sistemler">
+            <h2>Hazır Sistemler</h2><br>
+           <!-- Link verilecek --> <img src="resimler/gaming_sistem.jpg">
+        </div>
+
+    </div>
+
+    <div class="baslik"><h2>Mobil Cihaz ve Aksesuar</h2></div>
+    <div class="telefon_menü">
+
+        <div class="telefon_box">
+            <div class="xiaomi">
+                <img src="resimler/telefonlar/xiaomi_tel.png" style="width: auto; height: auto;">
+                <h3>Xiaomi</h3>
+            </div>
+            <div class="samsung">
+                <img src="resimler/telefonlar/samsung.png">
+                <h3>Samsung</h3>
+            </div>
+        </div>
+        <div class="telefon_box">
+                 <h3 style="padding-top:15px;">İphone</h3>
+                 <img src="resimler/telefonlar/iphone.png" style="width: 183px; height: auto;">
+        </div>
+        <div class="telefon_box">
+                <h3 style="padding-top:15px;">Tablet PC</h3>
+                <img src="resimler/telefonlar/tablet.png " style="width: auto; height: auto;"> 
+        </div>
+
+        <div class="telefon_box">
+            <div class="xiaomi">
+                <img src="resimler/telefonlar/akıllısaat.png">
+                <h3>Akıllı Saat</h3>
+            </div>
+            <div class="samsung">
+                <img src="resimler/telefonlar/kulaklık.png">
+                <h3>Kulaklık</h3>
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="baslik2"><h2>İlginizi Çekebilecek Ürünler</h2></div>
+    <div class="fotorama_ürünler">
+            <div class="ürünler">
+                <img src="resimler/ürünler/gamepower_monitör.png" style="height: 268px; width: 243px; padding-top: 20px;">
+                <div class="fiyat">
+                   <div class="sol">
+                       <div class="indirim">%34 İndirim</div>
+                    </div>
+                   <div class="sag">
+                       <div class="indirimlifiyat">
+                       <del>3,540,00 TL</del>2,349,00 TL
+                       </div>
+                    </div>
+            
+                </div>     
+            </div>
+
+            <div class="ürünler">
+                <img src="resimler/ürünler/asus_mouse.png" style="height: 286px; width: 256px;">
+                <div class="fiyat">
+                    <div class="sol">
+                        <div class="indirim">%6 İndirim</div>
+                     </div>
+                    <div class="sag">
+                        <div class="indirimlifiyat">
+                        <del>375,29 TL</del>352,47 TL
+                        </div>
+                     </div>
+             
+                 </div> 
+            </div>
+            <div class="ürünler">
+                <img src="resimler/ürünler/jamesdonkey_ssd.png" style="height: 268px; width: 274px; padding-top: 20px;">
+                <div class="fiyat">
+                    <div class="sol">
+                        <div class="indirim">%23 İndirim</div>
+                     </div>
+                    <div class="sag">
+                        <div class="indirimlifiyat">
+                        <del>349,00 TL</del>268,99 TL</b>
+                        </div>
+                     </div>
+             
+                 </div> 
+            </div>
+            <div class="ürünler">
+                <img src="resimler/ürünler/xiaomi_usb.png" style="height: 260px; width: 229px; padding-top: 20px;">
+                <div class="fiyat">
+                    <div class="sol">
+                        <div class="indirim">%20 İndirim</div>
+                     </div>
+                    <div class="sag">
+                        <div class="indirimlifiyat">
+                        <del>389,40 TL</del>309,90 TL
+                        </div>
+                     </div>
+             
+                 </div> 
+            </div>
+    </div>
+            <div class="baslik2"><h2>Televizyonlar</h2></div>
+            <div class="telefon_menü">
+        
+                <div class="telefon_box">
+                    <div class="xiaomi">
+                        <img src="resimler/televizyonlar/lg.png" style="width: 190px;">
+                        <h3>LG TV</h3>
+                    </div>
+                    <div class="samsung">
+                        <img src="resimler/televizyonlar/samsung.png" style="padding-left:5px;">
+                        <h3 style="text-align: center;">Samsung <br>TV</h3>
+                    </div>
+                </div>
+                <div class="telefon_box">
+                         <h3 style="padding-top:15px;">Smart Tv'ler</h3>
+                         <img src="resimler/televizyonlar/smart.png">
+                </div>
+                <div class="telefon_box">
+                        <h3 style="padding-top:15px;">UHD 4K Tv'ler</h3>
+                        <img src="resimler/televizyonlar/uhd.png "> 
+                </div>
+        
+                <div class="telefon_box">
+                    <div class="xiaomi">
+                        <img src="resimler/televizyonlar/çoksatan.png" style="width: 200px;">
+                        <h3 style="text-align: center;">Çok Satan <br>Modeller</h3>
+                    </div>
+                    <div class="samsung">
+                        <img src="resimler/televizyonlar/endüsük.png" style="padding-left:10px;">
+                        <h3 style="text-align: center;">En Düşük Fiyatlar</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer_üstü"><img src="resimler/bankalar.png"></div>
+            <div class="footer_üstü"><img src="resimler/visa.png"></div>
+            <div class="footer">
+
+                <div class="footer_ici">Bizi Tercih Ettiğiniz İçin Çok Teşekkür Ederiz. <br><br> Tekrar Bekleriz...</div>
+                    
+                <div class="footer_ici">
+                        <ul>
+                           <i><li><a href="index.html">Anasayfa</a></li>
+                            <li><a href="hazirsistemler.html">Hazır Sistemler</a></li>
+                            <li><a href="gamingsistemler.html">Gaming Sistemler</a></li>
+                           <li><a href="hakkimizda.html">Hakkımızda</a></li>
+                           <li><a href="iletişim.html">İletişim</a></li></i> 
+                           </ul>
+                 </div>
+
+                <div class="footer_ici">
+                  <a href="https://www.instagram.com/ozan.sahingoz/"><img src="resimler/instagram.png" style="padding-right:5px;"></a>
+                  <a href="https://twitter.com/SahingozOzan"><img src="resimler/twitter.png" style="margin-right: 5px;"></a>
+                    <img src="resimler/facebook_logo.png">
+                </div>
+            </div>
+            <div class="footer_alti"><em>Sitede Kullanılan Tüm Resimler İncehesap.com Sitesinden Alınmıştır.</em></div>
+</body>
+
+</html>

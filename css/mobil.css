@@ -1,0 +1,1004 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.indirim
+{
+    display: flex;
+    height: auto;
+}
+
+.indirim img
+{
+    width: 100%;
+    height: 100%;
+}
+
+.banner
+{
+    width: 98%;
+    height: 75px;
+    background-color: white;
+    display:flex;
+    margin-top: 5px;
+    margin-left: 20px;
+    justify-content: space-around;
+}
+
+.banner img
+{
+    width: 100%;
+    height: auto;
+    display:flex;
+}
+
+.logo img
+{
+    width: 90%;
+    height: 85%;
+    display:flex;
+}
+
+.menüler ul li
+{
+    list-style-type: none;
+    display: inline-block;
+    overflow: hidden;
+    padding: 5px;
+    margin: 5px;
+}
+
+.menüler
+{
+    width: 95%;
+    height: auto;
+    overflow: hidden;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menüler a 
+{
+    display: flex;
+    color: rgb(49, 49, 49);
+    text-decoration: none;
+    font-size:18px;
+    box-sizing: border-box;
+}
+
+.menüler a:hover
+{
+    display: flex;
+    color: rgb(121, 121, 121);
+}
+
+.mavi 
+{
+    width: 100%;
+    height: 3px;
+    margin-bottom: 2px;;
+    background-color: skyblue;
+    display: flex;
+}
+
+.k_resim
+{
+    width: 100%;
+    height: auto;
+    display: flex;  
+}
+
+.k_resim img
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.orta_alan
+{
+    width: 70%;
+    height: auto;
+    display: flex;
+}
+
+.fotorama_döngü
+{
+    width: 76%;
+    height: auto;
+    display: flex;
+    border-bottom: 1px solid gray;
+    padding-top: 30px;
+    justify-content: center;
+}
+
+.kücük_alan
+{
+    width: 20%;
+    height: auto;
+    display: flex;
+    border-bottom: 1px solid gray;
+    margin-left:25px; 
+    justify-content: center;
+    align-items: center;
+    display:block;
+    padding-top: 10px;
+    flex-direction: column;
+   
+}
+
+.ortanın_altı
+{
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    border-bottom:1px solid gray ;
+}
+
+
+.gaming_sistemler
+
+{
+    width: 80%;
+    height: auto;
+    display: flex;
+    margin-top: 0px;
+}
+
+.hazir_sistemler
+
+{
+    width: 80%;
+    height: auto;
+    text-align: center;
+    display: flex;
+    margin-top: 30px;
+}
+
+.gaming_sistemler img
+
+{
+    width: 88%;
+    height: auto;
+}
+
+.hazir_sistemler img
+
+{
+    width: 88%;
+    height: auto;
+}
+
+.baslik
+{
+    width: 90%;
+    height: 50px;
+    display: flex;
+    margin-top:30px;
+    padding-left: 10px;
+}
+
+.baslik2
+{
+    width: 90%;
+    height: 50px;
+    display: flex;
+    padding-left: 10px;
+    margin-bottom: 5px;
+}
+
+.telefon_menü
+{
+    width: 90%;
+    height: auto;
+    display: inline-block;
+    margin-top:10px;
+    overflow: hidden;
+    flex-direction: column;
+    margin-bottom: 20px;
+    border-top: 1px solid rgb(145, 145, 145);
+    border-bottom: 1px solid rgb(145, 145, 145);
+    box-shadow: 1px 1px 4px #000;
+}
+
+.telefon_box 
+
+{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    overflow: hidden;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.xiaomi 
+{
+    width: 500px;
+    height: 250px;
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+}
+.xiaomi img
+{
+    width: auto;
+    height: 90%;
+    display: flex;
+}
+
+
+.samsung 
+{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    overflow: hidden;
+    align-items: center;
+    border-bottom: 1px solid gray;
+}
+
+.fotorama_ürünler
+{
+    width: 90%;
+    height: auto;
+    display: flex;
+    margin-bottom: 20px;
+    overflow: hidden;
+    flex-direction: column;
+    margin-top: 10px;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    border-right: 1px solid gray;
+    box-shadow: 1px 1px 3px #000;
+}
+
+.ürünler
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-bottom:1px solid gray ;
+    box-sizing: border-box;
+}
+
+.fiyat
+{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    align-items: center;
+    justify-self: center;
+}
+
+.sol 
+{
+    width: 50%;
+    height: 90px;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.sag
+{
+    width: 58%;
+    height: 90px;
+    display: flex;
+    color: orange;
+    font-size: 20px;
+    flex-direction: column;
+}
+
+.indirim 
+{
+    width: 80%;
+    height: 50px;
+    display: flex;
+    background-color: orange;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+.indirimlifiyat
+{
+    width: 60%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: orange;
+    flex-direction: column;
+    font-size: 20px;
+    font-family: fantasy;
+}
+
+.footer_üstü
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    background-color: rgb(51, 51, 51);
+    margin:0px;
+}
+
+.footer_üstü img
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.teknoloji_günleri
+{
+    width: 85%;
+    height: auto;
+    display: flex;
+    margin:0px;
+}
+
+.teknoloji_günleri img
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.footer
+{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    background-color: rgb(51, 51, 51);
+}
+
+.footer_ici 
+{
+    width: 35%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color:white;
+    font-size:17px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-right: 0.5px solid white;
+    text-decoration: none;
+}
+
+.footer_alti
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    background-color: rgb(117, 117, 117);
+    margin:0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 5px;
+    text-decoration: none;
+   
+}
+
+.footer_ici  a 
+{
+    display: flex;
+    color: white;
+    text-decoration: none;
+    font-size:18px;
+    box-sizing: border-box;
+}
+
+.orta_alan2
+{
+    width: 98%;
+    height: auto;
+    display: flex;
+}
+
+.fotorama_döngü2
+{
+    width: 60%;
+    height: 65%;
+    display: flex;
+    border-bottom: 1px solid gray;
+    padding-top: 10px;
+    justify-content: center;
+}
+
+.reklamm
+{
+    width: 20%;
+    height: auto;
+    display: flex;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.reklamm img
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.ortanın_altı2
+{
+    width: 20%;
+    height: auto;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.hazir_sistemler2
+
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 0px;
+    color:rgb(109, 58, 88);
+}
+
+.yanyana
+{
+    width: 90%;
+    height: auto;
+    display: flex;
+    margin-top: 10px;
+    border:1px solid gray;
+    margin: 10px;
+    box-shadow: 1px 1px 2px rgb(181, 87, 243);
+    background-image: url(../resimler/arkaplan2.jpg);
+}
+
+.ürün
+
+{
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin: 10px;
+}
+
+.ürün_ic
+{
+    width: 94%;
+    height: auto;
+    display: flex;
+    margin: 10px;
+    flex-direction: column;
+}
+
+.ürün_ic img
+{
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    overflow: hidden;
+    align-items: center;
+    border:1px solid rgb(200, 200, 243);
+    border-radius: 10px;
+}
+
+.ürün_ic img:hover
+{
+    width: 100%;
+    height: 120%;
+    display: flex;
+}
+
+.yazi
+{
+    width: 90%;
+    height: auto;
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+    flex-direction: column;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.8rem;
+}
+
+.yazifiyat
+{
+    width: 60%;
+    height: auto;
+    margin: 0 auto;
+    color: orange;
+    font-size: 17px;
+    font-family: fantasy;
+}
+
+.hakkimizda_baslik
+{
+    width: 85%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgb(184, 184, 184);
+}
+
+.hakkimizda_resim
+{
+    width: 60%;
+    height: auto;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.hakkimizda_resim img
+{
+    width: 100%;
+    height: auto;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    overflow: hidden;
+}
+
+.yazi1
+{
+    width: 60%;
+    height: auto;
+    display: flex;
+    border-bottom: 5px;
+    margin: 0 auto;
+    justify-content: center;
+    
+}
+
+.yazi1 p 
+{
+    font-size: 18px;
+    text-indent: 25px;
+    text-align: center;
+    justify-content: center;
+}
+
+.yazi2
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.yazi2 h1 
+{
+    text-align: center;
+    justify-content: center;
+    color: rgb(41, 109, 136);
+}
+
+.yaziBaslik
+{
+    width: 60%;
+    height: 50px;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.yaziBaslik h1 
+{
+    text-align: center;
+    justify-content: center;
+    color: rgb(54, 54, 54);
+    font-family: fantasy;
+    font-size: 24px;
+}
+
+.kutu
+{
+    width: 85%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.yazi3
+{
+    width: 25%;
+    height: auto;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.yazi4
+{
+    width: 60%;
+    height: auto;
+    display: flex;
+    border-bottom: 5px;
+    overflow: hidden;
+    justify-content: center;
+}
+
+.yazi4 p 
+{
+    font-size: 18px;
+    text-indent: 25px;
+    text-align: center;
+    justify-content: center;
+}
+
+.yazi5
+{
+    width: 60%;
+    height: auto;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.yazi5 h1 
+{
+    text-align: center;
+    justify-content: center;
+    color: rgb(41, 109, 136);
+}
+
+.yazi9
+{
+    width: 60%;
+    height: auto;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.yazi9 h1 
+{
+    text-align: center;
+    justify-content: center;
+    color: rgb(48, 7, 42);
+}
+
+.yazi6
+{
+    width: 50%;
+    height: auto;
+    display: inline-block;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.yazi7
+{
+    width: 60%;
+    height: 50px;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: center;
+    border-bottom: 1px solid gray;
+}
+
+.yazi7 h1 
+{
+    text-align: center;
+    justify-content: center;
+    color: rgb(46, 47, 48);
+}
+
+.yazi8
+{
+    width: 60%;
+    height: auto;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.yazi8 h1 
+{
+    text-align: center;
+    justify-content: center;
+    color: rgb(48, 7, 42);
+}
+
+.iletisim_baslik
+{
+    width: auto;
+    height: 60px;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.iletisim_baslik h2 
+{
+    text-align: center;
+    justify-content: center;
+    color: rgb(206, 134, 2);
+}
+
+.iletisim_baslik h3
+{
+    text-align: center;
+    justify-content: center;
+    color: rgb(206, 134, 2);
+    font-size: 21px;
+}
+
+.iletisim_baslik p
+{
+    text-align: center;
+    justify-content: center;
+    font-size: 18px;
+}
+
+.iletisim_logo
+{
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.iletisim_logo img
+{
+    width: auto;
+    height: auto;
+    display: flex;
+}
+
+.harita
+{
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 7px;
+}
+
+.gamingortaalan
+{
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto; 
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.gamingortaalan img
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin: 0 auto; 
+}
+
+.gamingyazi
+{
+    width: 85%;
+    height: 45px;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+    box-sizing: border-box;
+    text-indent: 15px;
+    border: 1px solid gray;
+    background-image: url(../resimler/arkaplan.jpg);
+    color: white;
+    font-size: 18px;
+}
+
+.kapsayici
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.kutu1
+{
+    width: 90%;
+    height: auto;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    box-shadow: 1px 1px 4px #000;
+}
+
+.kutuici
+{
+    width: 90%;
+    height: auto;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    margin: 15px;
+    background-image: url(../resimler/arkaplan2.jpg);
+}
+
+
+.gamingbaslik
+{
+    width: 60%;
+    height: auto;
+    justify-content: center;
+    margin: 0 auto;
+    overflow: hidden;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color:rgb(109, 58, 88);
+    background-image: url(../resimler/arkaplan3.gif);
+}
+
+.gamingresim
+{
+    width: auto;
+    height: auto;
+    display: flex;
+    border: 1px solid gray;
+    justify-content:center;
+    margin:5px;
+    box-shadow: 1px 1px 4px rgb(129, 83, 141);
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.gamingresim img
+{
+    width: auto;
+    height: 100%;
+    display: flex;
+}
+
+.gamingresim img:hover
+{
+    width: auto;
+    height: 105%;
+    display: flex;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.gamingürün
+{
+    width: 97%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin:5px;
+    font-size: 17px;
+    color: rgb(54, 54, 54);
+    align-items: center;
+}
+
+.gaminga
+{
+    width: 97%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:5px;
+}
+
+.turuncuindirim
+{
+    width: 22%;
+    height: auto;
+    display: flex;
+    background-color: orange;
+    justify-content: center;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin:5px;
+    font-size: 20px;
+    align-items: center;
+    color: white;
+}
+
+.gamingfiyat
+{
+    width: 70%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+}
+
+.gamingfiyat h2
+{
+    color: orange;
+    margin: 0px;
+}
+
+.gamingfiyat del
+{
+    font-size: 12px;
+    color: rgb(153, 153, 153);
+    margin: 0px;
+}
